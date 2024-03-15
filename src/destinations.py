@@ -48,7 +48,7 @@ def get_flights():
             page += 1
 
         # Save destinationList as a JSON file
-        with open(settings.data_dir + "/destinationList.json", "w") as file:
+        with open(f"{settings.data_dir}/destinationList.json", "w") as file:
             json.dump(destinationList, file)
 
         print("destinationList saved as destinationList.json")

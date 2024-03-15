@@ -53,7 +53,7 @@ def get_flights():
             print("found {} flights.".format(len(flightList["flights"])))
             page += 1
 
-        with open(settings.data_dir + "/flightList.json", "w") as file:
+        with open(f"{settings.data_dir}/flightList.json", "w") as file:
             # Save the flight data to a JSON file
             json.dump(flightList, file)
 
