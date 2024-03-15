@@ -8,7 +8,13 @@ settings = Settings()
 
 
 def get_flights():
+    """
+    Retrieves a list of flights destinations from the Schiphol API and saves it as a JSON file.
 
+    Returns:
+        None
+    """
+    # API endpoint URL
     url = "https://api.schiphol.nl/public-flights/destinations?"
     page = 0
     headers = {
@@ -21,6 +27,7 @@ def get_flights():
     params = {"page": page, "sort": "+iata"}
 
     try:
+        # Send GET request to the API
         response = requests.get(url, headers=headers, params=params)
         logger.debug(response.json())
 
@@ -31,14 +38,17 @@ def get_flights():
     if response.status_code == 200:
         destinationList = response.json()
         print("found {} destinations.".format(len(destinationList["destinations"])))
+
         while "next" in response.links:
+            # Update the page parameter to fetch the next page of results
             params["page"] = page
             response = requests.get(url, headers=headers, params=params)
             destinationList["destinations"].extend(response.json()["destinations"])
             print("found {} destinations.".format(len(destinationList["destinations"])))
             page += 1
-        # Save flightList as a JSON file
-        with open("destinationList.json", "w") as file:
+
+        # Save destinationList as a JSON file
+        with open(settings.data_dir + "/destinationList.json", "w") as file:
             json.dump(destinationList, file)
 
         print("destinationList saved as destinationList.json")
@@ -47,4 +57,5 @@ def get_flights():
 
 
 if __name__ == "__main__":
+    # Call the get_flights function when the script is run directly
     get_flights()
