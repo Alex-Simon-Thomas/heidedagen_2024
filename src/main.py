@@ -1,7 +1,7 @@
 from settings import Settings, logger
 from flights import get_flights
 from destinations import get_destinations
-from preprocess import preprocess
+from preprocess import preprocess_data
 from map import create_map
 
 
@@ -21,7 +21,7 @@ def main():
 
     # Preprocess data
     logger.info("Preprocessing data")
-    preprocess()
+    preprocess_data()
 
     # Create map
     logger.info("Creating map")

@@ -13,7 +13,7 @@ A quick analysis project to determine possible destinations for the heidedagen 2
 
 ## Introduction
 
-This project is created to determine the possible flights from Amsterdam schiphol during the stated period of the heidedagen in 2024.
+Every year our company goes on a work trip for a weekend nicknamed 'heidedagen'. The location is usually somewhere outside of the Netherlands and in the weeks prior we get certain hints as to where we might go. This year I decided to use the data from the amsterdam schiphol api to determine possible destinations based on the flights departing from amsterdam schiphol in the weekend of the heidedagen.
 
 ## Features
 
@@ -34,8 +34,6 @@ To get started with Flights, follow these steps:
 5. Create a file named 'api_settings.py' in the 'src' directory and add the following code:
     ```python
     from pydantic import BaseModel
-    from loguru import logger
-
 
     class API_settings(BaseModel):
         api_id: str = your_app_id
@@ -43,7 +41,6 @@ To get started with Flights, follow these steps:
 
 
     settings = API_settings()
-    logger.add(settings.logfile, level=settings.loglevel)
 
     ```
     
