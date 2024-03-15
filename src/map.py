@@ -1,13 +1,14 @@
 # Importing the required modules
 from folium import Map, Marker, Popup, Circle
 import pandas as pd
-from settings import Settings
+from settings import Settings, logger
 
 # Creating an instance of the Settings class
 settings = Settings()
 
 # Importing the airports data from the airports.csv file
 airports = pd.read_csv(f"{settings.outputdir}/airports.csv")
+logger.info("Airports data loaded")
 
 # Dropping duplicates based on the "city" column
 airports = airports.drop_duplicates(subset="city")
@@ -20,6 +21,7 @@ for index, row in airports.iterrows():
     popup = Popup(row["dutch"])
     popup.add_to(marker)
     marker.add_to(map)
+logger.info("Airports added to map")
 
 # add a marker for Amsterdam Schiphol Airport
 marker = Marker(location=[52.3080392, 4.7621975])
@@ -34,5 +36,4 @@ circle = Circle(
 circle.add_to(map)
 
 map.save("map.html")
-
-map
+logger.info("Map saved as map.html")

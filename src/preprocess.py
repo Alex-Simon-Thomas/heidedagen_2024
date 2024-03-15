@@ -1,53 +1,33 @@
 import json
 import pandas as pd
-import numpy as np
-from geopy.geocoders import Nominatim
-from geopy.exc import GeocoderTimedOut
-from math import sin, cos, sqrt, atan2, radians
 from settings import Settings
 from proces_functions import *
 
 settings = Settings()
 
-# coordinates for starting location amsterdam schiphol airport
-schiphol_lat = 52.3080392
-schiphol_lon = 4.7621975
-
-# Specify the path to the JSON file in data/flight_data.json
-file_path = "data/flightList.json"
-
-# Open the JSON file and load its contents
-with open(file_path, "r") as file:
+# Load flight data
+with open(f"{settings.data_dir}/flightList.json", "r") as file:
     flight_list = json.load(file)
 
-
 df_flight = pd.DataFrame(flight_list["flights"])
-df_flight[["destinations", "eu", "visa"]] = pd.DataFrame(
-    df_flight["route"].tolist(), index=df_flight.index
-)
 df_flight = df_flight[df_flight["serviceType"] == "J"]
-df_flight["destinations"] = df_flight["destinations"].str[0]
+df_flight["destinations"] = df_flight["route"].str[0]
 df_flight = df_flight[
     ["flightName", "flightNumber", "id", "destinations", "eu", "scheduleTime"]
 ]
-df_flight.reset_index(drop=True, inplace=True)
+logger.info("Flight data loaded")
 
-# Specify the path to the JSON file
-file_path = "data/destinationList.json"
-
-# Open the JSON file and load its contents
-with open(file_path, "r") as file:
+# Load destination data
+with open(f"{settings.data_dir}/destinationList.json", "r") as file:
     destinationList = json.load(file)
 
 df_destination = pd.DataFrame(destinationList["destinations"])
-df_destination[["dutch", "english"]] = pd.DataFrame(
-    df_destination["publicName"].tolist(), index=df_destination.index
-)
-df_destination = df_destination[["iata", "country", "city", "dutch", "english"]]
+df_destination = df_destination[["iata", "country", "city", "publicName"]]
+df_destination.columns = ["destinations", "country", "city", "dutch"]
+logger.info("Destination data loaded")
 
-df_combined = df_flight.merge(
-    df_destination, left_on="destinations", right_on="iata", how="left"
-)
+# Merge flight and destination data
+df_combined = df_flight.merge(df_destination, on="destinations", how="left")
 df_combined = df_combined[
     [
         "flightName",
@@ -59,36 +39,46 @@ df_combined = df_combined[
         "country",
         "city",
         "dutch",
-        "english",
     ]
 ]
+logger.info("Data merged")
 
-df_coordinates = df_combined
-df_coordinates["latitude"] = df_coordinates.apply(
+# Add latitude and longitude data
+df_combined["latitude"] = df_combined.apply(
     lambda row: get_latitude(f"{row['destinations']}, {row['country']}"), axis=1
 )
-df_coordinates["longitude"] = df_coordinates.apply(
+df_combined["longitude"] = df_combined.apply(
     lambda row: get_longitude(f"{row['destinations']}, {row['country']}"), axis=1
 )
-df_coordinates["south_of_amsterdam"] = df_coordinates.apply(
+logger.info("Latitude and longitude data loaded")
+
+# Add south of Amsterdam data
+df_combined["south_of_amsterdam"] = df_combined.apply(
     is_airport_south_of_amsterdam, axis=1
 )
+logger.info("calculated south of Amsterdam data")
 
-df_distance = df_coordinates
-df_distance["distance_to_schiphol"] = df_distance.apply(
-    lambda row: calculate_distance(row, schiphol_lat, schiphol_lon), axis=1
+# Calculate distance to Schiphol
+df_combined["distance_to_schiphol"] = df_combined.apply(
+    lambda row: calculate_distance(row, settings.schiphol_lat, settings.schiphol_lon),
+    axis=1,
 )
+logger.info("Distance to Schiphol data loaded")
 
-# Create the final DataFrame with filtering and sorting
+# Filter and sort final DataFrame
 df_final = (
-    df_distance[
-        (df_distance["distance_to_schiphol"] < 1900)
-        & (df_distance["south_of_amsterdam"])
+    df_combined[
+        (df_combined["distance_to_schiphol"] < 1900)
+        & (df_combined["south_of_amsterdam"])
     ]
     .sort_values(by="distance_to_schiphol")
     .reset_index(drop=True)
 )
+logger.info("Preprocessing done")
 
-df_airports = df_final[
-    ["destinations", "city", "dutch", "latitude", "longitude"]
-].drop_duplicates(subset=["destinations"])
+# Export DataFrames to CSV
+df_final.to_csv(f"{settings.outputdir}/flight_data.csv", index=False)
+df_final[["destinations", "city", "dutch", "latitude", "longitude"]].drop_duplicates(
+    subset=["destinations"]
+).to_csv(f"{settings.outputdir}/airport_data.csv", index=False)
+logger.info(f"Data exported to CSV in {settings.outputdir} folder")
