@@ -1,10 +1,12 @@
-from src.settings import Settings, logger
+from settings import Settings, logger
+from api_settings import API_settings
 from requests import *
 import requests
 import sys
 import json
 
 settings = Settings()
+api_settings = API_settings()
 
 
 def get_destinations():
@@ -19,8 +21,8 @@ def get_destinations():
     page = 0
     headers = {
         "Accept": "application/json",
-        "app_id": settings.api_id,
-        "app_key": settings.api_key,
+        "app_id": api_settings.api_id,
+        "app_key": api_settings.api_key,
         "ResourceVersion": "v4",
     }
 
