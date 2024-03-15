@@ -30,6 +30,8 @@ To get started with Flights, follow these steps:
     - On macOS and Linux: `python3 -m venv venv`
 3. Install all requirements from the requirements.txt file:
     `pip install -r requirements.txt`
+
+To use the application, you will need to create an account on the amsterdam schiphol api and get your personal app_id and app_key. You can do this by following these steps:
 4. go to www.developer.schiphol.nl and create an account to get your personal app_id and app_key
 5. Create a file named 'api_settings.py' in the 'src' directory and add the following code:
     ```python
@@ -58,10 +60,17 @@ To only update the database with the latest flights, use the following command:
 python src/flights.py
 ```
 
-To run the preprocessing of the data (only necessary with new flight data), use the following command:
+The preprocessing and map creation code can be altered to fit your needs and personal preferences.
+These functions don't require a KLM api key and can be run without one.
+
+Preprocessing the data is only necessary when new flight data is available.
+
+To run the preprocessing of the data, use the following command:
 ```bash
 python src/preprocessing.py
 ```
+
+The map can be recreated using the following command. This is only necessary when new flight data is available.
 
 To recreate the map of the flights, use the following command:
 ```bash
