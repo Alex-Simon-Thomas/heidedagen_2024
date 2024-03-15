@@ -1,4 +1,4 @@
-from settings import Settings, logger
+from src.settings import Settings, logger
 from requests import *
 import requests
 import sys
