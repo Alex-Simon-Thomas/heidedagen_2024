@@ -32,6 +32,7 @@ To get started with Flights, follow these steps:
     `pip install -r requirements.txt`
 
 To use the application, you will need to create an account on the amsterdam schiphol api and get your personal app_id and app_key. You can do this by following these steps:
+
 4. go to www.developer.schiphol.nl and create an account to get your personal app_id and app_key
 5. Create a file named 'api_settings.py' in the 'src' directory and add the following code:
     ```python
