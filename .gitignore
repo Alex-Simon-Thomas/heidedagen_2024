@@ -6,8 +6,3 @@ api_settings.py
 
 # Ignore the logs directory
 logs/
-
-#readme file still under construction
-readme.md
-personal/
-test.py
