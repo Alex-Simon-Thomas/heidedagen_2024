@@ -1,0 +1,3136 @@
+{
+    "flights": [
+        {
+            "lastUpdatedAt": "2024-02-01T08:02:42.907+01:00",
+            "aircraftType": {
+                "iataMain": "73H",
+                "iataSub": "73H"
+            },
+            "flightDirection": "D",
+            "flightName": "HV5623",
+            "flightNumber": 5623,
+            "id": "139895032886066337",
+            "isOperationalFlight": false,
+            "mainFlight": "HV5623",
+            "prefixIATA": "HV",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "PMI"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T12:00:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "12:00:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-15T01:10:32.132+01:00",
+            "aircraftType": {
+                "iataMain": "32S",
+                "iataSub": "32A"
+            },
+            "flightDirection": "D",
+            "flightName": "I23723",
+            "flightNumber": 3723,
+            "id": "139895033050792631",
+            "isOperationalFlight": false,
+            "mainFlight": "I23723",
+            "prefixIATA": "I2",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "MAD"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T12:00:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "12:00:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-15T01:04:06.070+01:00",
+            "aircraftType": {
+                "iataMain": "787",
+                "iataSub": "788"
+            },
+            "flightDirection": "D",
+            "flightName": "UA947",
+            "flightNumber": 947,
+            "id": "139895031769682587",
+            "isOperationalFlight": false,
+            "mainFlight": "UA947",
+            "prefixIATA": "UA",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "IAD"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T12:00:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "12:00:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-15T01:10:29.824+01:00",
+            "aircraftType": {
+                "iataMain": "32S",
+                "iataSub": "32Q"
+            },
+            "flightDirection": "D",
+            "flightName": "A3625",
+            "flightNumber": 625,
+            "id": "139895031697645655",
+            "isOperationalFlight": false,
+            "mainFlight": "A3625",
+            "prefixIATA": "A3",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "ATH"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T12:05:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "12:05:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-02-01T08:01:59.759+01:00",
+            "aircraftType": {
+                "iataMain": "73H",
+                "iataSub": "73H"
+            },
+            "flightDirection": "D",
+            "flightName": "HV5423",
+            "flightNumber": 5423,
+            "id": "139895032886060861",
+            "isOperationalFlight": false,
+            "mainFlight": "HV5423",
+            "prefixIATA": "HV",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "PSA"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T12:10:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "12:10:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-14T16:07:23.131+01:00",
+            "aircraftType": {
+                "iataMain": "319",
+                "iataSub": "319"
+            },
+            "flightDirection": "D",
+            "flightName": "EJU5531",
+            "flightNumber": 5531,
+            "id": "139895058816955265",
+            "isOperationalFlight": false,
+            "mainFlight": "EJU5531",
+            "prefixICAO": "EJU",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "BRS"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T12:10:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "12:10:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-15T01:03:40.528+01:00",
+            "aircraftType": {
+                "iataMain": "777",
+                "iataSub": "77L"
+            },
+            "flightDirection": "D",
+            "flightName": "AC809",
+            "flightNumber": 809,
+            "id": "139895031694915729",
+            "isOperationalFlight": false,
+            "mainFlight": "AC809",
+            "prefixIATA": "AC",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "YYZ"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T12:15:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "12:15:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-15T01:03:41.037+01:00",
+            "aircraftType": {
+                "iataMain": "350",
+                "iataSub": "351"
+            },
+            "flightDirection": "D",
+            "flightName": "CX270",
+            "flightNumber": 270,
+            "id": "139895031704523871",
+            "isOperationalFlight": false,
+            "mainFlight": "CX270",
+            "prefixIATA": "CX",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "HKG"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T12:15:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "12:15:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-02-01T08:06:08.271+01:00",
+            "aircraftType": {
+                "iataMain": "73H",
+                "iataSub": "73H"
+            },
+            "flightDirection": "D",
+            "flightName": "HV6147",
+            "flightNumber": 6147,
+            "id": "139895032886154109",
+            "isOperationalFlight": false,
+            "mainFlight": "HV6147",
+            "prefixIATA": "HV",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "ALC"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T12:20:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "12:20:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-02-01T08:07:45.925+01:00",
+            "aircraftType": {
+                "iataMain": "73H",
+                "iataSub": "73H"
+            },
+            "flightDirection": "D",
+            "flightName": "HV6591",
+            "flightNumber": 6591,
+            "id": "139895032886165419",
+            "isOperationalFlight": false,
+            "mainFlight": "HV6591",
+            "prefixIATA": "HV",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "SZG"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T12:20:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "12:20:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-14T16:07:46.494+01:00",
+            "aircraftType": {
+                "iataMain": "319",
+                "iataSub": "319"
+            },
+            "flightDirection": "D",
+            "flightName": "EJU7835",
+            "flightNumber": 7835,
+            "id": "139895058817166099",
+            "isOperationalFlight": false,
+            "mainFlight": "EJU7835",
+            "prefixICAO": "EJU",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "GLA"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T12:20:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "12:20:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-14T16:10:52.182+01:00",
+            "aircraftType": {
+                "iataMain": "320",
+                "iataSub": "32S"
+            },
+            "flightDirection": "D",
+            "flightName": "EZY2516",
+            "flightNumber": 2516,
+            "id": "139895061050651121",
+            "isOperationalFlight": false,
+            "mainFlight": "EZY2516",
+            "prefixICAO": "EZY",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "LTN"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T12:25:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "12:25:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-02-24T22:15:42.716+01:00",
+            "aircraftType": {
+                "iataMain": "320",
+                "iataSub": "32S"
+            },
+            "flightDirection": "D",
+            "flightName": "OG461",
+            "flightNumber": 461,
+            "id": "139895031747786937",
+            "isOperationalFlight": false,
+            "mainFlight": "OG461",
+            "prefixIATA": "OG",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "KEF"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T12:30:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "12:30:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-15T01:04:06.388+01:00",
+            "aircraftType": {
+                "iataMain": "32S",
+                "iataSub": "32Q"
+            },
+            "flightDirection": "D",
+            "flightName": "VF002",
+            "flightNumber": 2,
+            "id": "139895031773912491",
+            "isOperationalFlight": false,
+            "mainFlight": "VF002",
+            "prefixIATA": "VF",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "SAW"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T12:30:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "12:30:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-02-01T08:00:57.646+01:00",
+            "aircraftType": {
+                "iataMain": "73H",
+                "iataSub": "73H"
+            },
+            "flightDirection": "D",
+            "flightName": "HV5135",
+            "flightNumber": 5135,
+            "id": "139895032886052725",
+            "isOperationalFlight": false,
+            "mainFlight": "HV5135",
+            "prefixIATA": "HV",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "BCN"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T12:35:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "12:35:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-15T01:03:40.775+01:00",
+            "aircraftType": {
+                "iataMain": "787",
+                "iataSub": "788"
+            },
+            "flightDirection": "D",
+            "flightName": "AC901",
+            "flightNumber": 901,
+            "id": "139895031694918451",
+            "isOperationalFlight": false,
+            "mainFlight": "AC901",
+            "prefixIATA": "AC",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "YUL"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T12:35:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "12:35:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-11T10:42:18.365+01:00",
+            "aircraftType": {
+                "iataMain": "32S",
+                "iataSub": "32Q"
+            },
+            "flightDirection": "D",
+            "flightName": "PC1252",
+            "flightNumber": 1252,
+            "id": "139895033923935575",
+            "isOperationalFlight": false,
+            "mainFlight": "PC1252",
+            "prefixIATA": "PC",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "SAW"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T12:45:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "12:45:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-14T16:09:15.986+01:00",
+            "aircraftType": {
+                "iataMain": "32S",
+                "iataSub": "32N"
+            },
+            "flightDirection": "D",
+            "flightName": "EJU7939",
+            "flightNumber": 7939,
+            "id": "139895058817168845",
+            "isOperationalFlight": false,
+            "mainFlight": "EJU7939",
+            "prefixICAO": "EJU",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "CPH"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T12:45:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "12:45:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-14T16:07:02.873+01:00",
+            "aircraftType": {
+                "iataMain": "32S",
+                "iataSub": "32N"
+            },
+            "flightDirection": "D",
+            "flightName": "EJU4233",
+            "flightNumber": 4233,
+            "id": "139895058816845749",
+            "isOperationalFlight": false,
+            "mainFlight": "EJU4233",
+            "prefixICAO": "EJU",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "NAP"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T13:00:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "13:00:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-02-01T08:00:04.023+01:00",
+            "aircraftType": {
+                "iataMain": "73H",
+                "iataSub": "73H"
+            },
+            "flightDirection": "D",
+            "flightName": "HV1445",
+            "flightNumber": 1445,
+            "id": "139895032885655789",
+            "isOperationalFlight": false,
+            "mainFlight": "HV1445",
+            "prefixIATA": "HV",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "HRG"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T13:15:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "13:15:00",
+            "serviceType": "C",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-02-01T08:02:42.907+01:00",
+            "aircraftType": {
+                "iataMain": "73H",
+                "iataSub": "73H"
+            },
+            "flightDirection": "D",
+            "flightName": "HV5623",
+            "flightNumber": 5623,
+            "id": "139895032886066337",
+            "isOperationalFlight": false,
+            "mainFlight": "HV5623",
+            "prefixIATA": "HV",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "PMI"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T12:00:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "12:00:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-15T01:10:32.132+01:00",
+            "aircraftType": {
+                "iataMain": "32S",
+                "iataSub": "32A"
+            },
+            "flightDirection": "D",
+            "flightName": "I23723",
+            "flightNumber": 3723,
+            "id": "139895033050792631",
+            "isOperationalFlight": false,
+            "mainFlight": "I23723",
+            "prefixIATA": "I2",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "MAD"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T12:00:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "12:00:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-15T01:04:06.070+01:00",
+            "aircraftType": {
+                "iataMain": "787",
+                "iataSub": "788"
+            },
+            "flightDirection": "D",
+            "flightName": "UA947",
+            "flightNumber": 947,
+            "id": "139895031769682587",
+            "isOperationalFlight": false,
+            "mainFlight": "UA947",
+            "prefixIATA": "UA",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "IAD"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T12:00:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "12:00:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-15T01:10:29.824+01:00",
+            "aircraftType": {
+                "iataMain": "32S",
+                "iataSub": "32Q"
+            },
+            "flightDirection": "D",
+            "flightName": "A3625",
+            "flightNumber": 625,
+            "id": "139895031697645655",
+            "isOperationalFlight": false,
+            "mainFlight": "A3625",
+            "prefixIATA": "A3",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "ATH"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T12:05:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "12:05:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-02-01T08:01:59.759+01:00",
+            "aircraftType": {
+                "iataMain": "73H",
+                "iataSub": "73H"
+            },
+            "flightDirection": "D",
+            "flightName": "HV5423",
+            "flightNumber": 5423,
+            "id": "139895032886060861",
+            "isOperationalFlight": false,
+            "mainFlight": "HV5423",
+            "prefixIATA": "HV",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "PSA"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T12:10:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "12:10:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-14T16:07:23.131+01:00",
+            "aircraftType": {
+                "iataMain": "319",
+                "iataSub": "319"
+            },
+            "flightDirection": "D",
+            "flightName": "EJU5531",
+            "flightNumber": 5531,
+            "id": "139895058816955265",
+            "isOperationalFlight": false,
+            "mainFlight": "EJU5531",
+            "prefixICAO": "EJU",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "BRS"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T12:10:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "12:10:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-15T01:03:40.528+01:00",
+            "aircraftType": {
+                "iataMain": "777",
+                "iataSub": "77L"
+            },
+            "flightDirection": "D",
+            "flightName": "AC809",
+            "flightNumber": 809,
+            "id": "139895031694915729",
+            "isOperationalFlight": false,
+            "mainFlight": "AC809",
+            "prefixIATA": "AC",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "YYZ"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T12:15:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "12:15:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-15T01:03:41.037+01:00",
+            "aircraftType": {
+                "iataMain": "350",
+                "iataSub": "351"
+            },
+            "flightDirection": "D",
+            "flightName": "CX270",
+            "flightNumber": 270,
+            "id": "139895031704523871",
+            "isOperationalFlight": false,
+            "mainFlight": "CX270",
+            "prefixIATA": "CX",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "HKG"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T12:15:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "12:15:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-02-01T08:06:08.271+01:00",
+            "aircraftType": {
+                "iataMain": "73H",
+                "iataSub": "73H"
+            },
+            "flightDirection": "D",
+            "flightName": "HV6147",
+            "flightNumber": 6147,
+            "id": "139895032886154109",
+            "isOperationalFlight": false,
+            "mainFlight": "HV6147",
+            "prefixIATA": "HV",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "ALC"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T12:20:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "12:20:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-02-01T08:07:45.925+01:00",
+            "aircraftType": {
+                "iataMain": "73H",
+                "iataSub": "73H"
+            },
+            "flightDirection": "D",
+            "flightName": "HV6591",
+            "flightNumber": 6591,
+            "id": "139895032886165419",
+            "isOperationalFlight": false,
+            "mainFlight": "HV6591",
+            "prefixIATA": "HV",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "SZG"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T12:20:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "12:20:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-14T16:07:46.494+01:00",
+            "aircraftType": {
+                "iataMain": "319",
+                "iataSub": "319"
+            },
+            "flightDirection": "D",
+            "flightName": "EJU7835",
+            "flightNumber": 7835,
+            "id": "139895058817166099",
+            "isOperationalFlight": false,
+            "mainFlight": "EJU7835",
+            "prefixICAO": "EJU",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "GLA"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T12:20:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "12:20:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-14T16:10:52.182+01:00",
+            "aircraftType": {
+                "iataMain": "320",
+                "iataSub": "32S"
+            },
+            "flightDirection": "D",
+            "flightName": "EZY2516",
+            "flightNumber": 2516,
+            "id": "139895061050651121",
+            "isOperationalFlight": false,
+            "mainFlight": "EZY2516",
+            "prefixICAO": "EZY",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "LTN"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T12:25:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "12:25:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-02-24T22:15:42.716+01:00",
+            "aircraftType": {
+                "iataMain": "320",
+                "iataSub": "32S"
+            },
+            "flightDirection": "D",
+            "flightName": "OG461",
+            "flightNumber": 461,
+            "id": "139895031747786937",
+            "isOperationalFlight": false,
+            "mainFlight": "OG461",
+            "prefixIATA": "OG",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "KEF"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T12:30:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "12:30:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-15T01:04:06.388+01:00",
+            "aircraftType": {
+                "iataMain": "32S",
+                "iataSub": "32Q"
+            },
+            "flightDirection": "D",
+            "flightName": "VF002",
+            "flightNumber": 2,
+            "id": "139895031773912491",
+            "isOperationalFlight": false,
+            "mainFlight": "VF002",
+            "prefixIATA": "VF",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "SAW"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T12:30:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "12:30:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-02-01T08:00:57.646+01:00",
+            "aircraftType": {
+                "iataMain": "73H",
+                "iataSub": "73H"
+            },
+            "flightDirection": "D",
+            "flightName": "HV5135",
+            "flightNumber": 5135,
+            "id": "139895032886052725",
+            "isOperationalFlight": false,
+            "mainFlight": "HV5135",
+            "prefixIATA": "HV",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "BCN"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T12:35:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "12:35:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-15T01:03:40.775+01:00",
+            "aircraftType": {
+                "iataMain": "787",
+                "iataSub": "788"
+            },
+            "flightDirection": "D",
+            "flightName": "AC901",
+            "flightNumber": 901,
+            "id": "139895031694918451",
+            "isOperationalFlight": false,
+            "mainFlight": "AC901",
+            "prefixIATA": "AC",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "YUL"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T12:35:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "12:35:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-11T10:42:18.365+01:00",
+            "aircraftType": {
+                "iataMain": "32S",
+                "iataSub": "32Q"
+            },
+            "flightDirection": "D",
+            "flightName": "PC1252",
+            "flightNumber": 1252,
+            "id": "139895033923935575",
+            "isOperationalFlight": false,
+            "mainFlight": "PC1252",
+            "prefixIATA": "PC",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "SAW"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T12:45:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "12:45:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-14T16:09:15.986+01:00",
+            "aircraftType": {
+                "iataMain": "32S",
+                "iataSub": "32N"
+            },
+            "flightDirection": "D",
+            "flightName": "EJU7939",
+            "flightNumber": 7939,
+            "id": "139895058817168845",
+            "isOperationalFlight": false,
+            "mainFlight": "EJU7939",
+            "prefixICAO": "EJU",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "CPH"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T12:45:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "12:45:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-14T16:07:02.873+01:00",
+            "aircraftType": {
+                "iataMain": "32S",
+                "iataSub": "32N"
+            },
+            "flightDirection": "D",
+            "flightName": "EJU4233",
+            "flightNumber": 4233,
+            "id": "139895058816845749",
+            "isOperationalFlight": false,
+            "mainFlight": "EJU4233",
+            "prefixICAO": "EJU",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "NAP"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T13:00:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "13:00:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-02-01T08:00:04.023+01:00",
+            "aircraftType": {
+                "iataMain": "73H",
+                "iataSub": "73H"
+            },
+            "flightDirection": "D",
+            "flightName": "HV1445",
+            "flightNumber": 1445,
+            "id": "139895032885655789",
+            "isOperationalFlight": false,
+            "mainFlight": "HV1445",
+            "prefixIATA": "HV",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "HRG"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T13:15:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "13:15:00",
+            "serviceType": "C",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-14T16:11:31.209+01:00",
+            "aircraftType": {
+                "iataMain": "32S",
+                "iataSub": "32N"
+            },
+            "flightDirection": "D",
+            "flightName": "EZY3302",
+            "flightNumber": 3302,
+            "id": "139895061050746869",
+            "isOperationalFlight": false,
+            "mainFlight": "EZY3302",
+            "prefixICAO": "EZY",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "EDI"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T13:15:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "13:15:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-15T01:10:38.695+01:00",
+            "aircraftType": {
+                "iataMain": "320",
+                "iataSub": "32S"
+            },
+            "flightDirection": "D",
+            "flightName": "EI605",
+            "flightNumber": 605,
+            "id": "139895031710511369",
+            "isOperationalFlight": false,
+            "mainFlight": "EI605",
+            "prefixIATA": "EI",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "DUB"
+                ],
+                "eu": "E",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T13:15:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "13:15:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-02-01T08:02:21.906+01:00",
+            "aircraftType": {
+                "iataMain": "73W",
+                "iataSub": "73W"
+            },
+            "flightDirection": "D",
+            "flightName": "HV5471",
+            "flightNumber": 5471,
+            "id": "139895032886061227",
+            "isOperationalFlight": false,
+            "mainFlight": "HV5471",
+            "prefixIATA": "HV",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "MAH"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T13:20:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "13:20:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-14T16:06:05.460+01:00",
+            "aircraftType": {
+                "iataMain": "32S",
+                "iataSub": "32N"
+            },
+            "flightDirection": "D",
+            "flightName": "EJU1753",
+            "flightNumber": 1753,
+            "id": "139895058816555669",
+            "isOperationalFlight": false,
+            "mainFlight": "EJU1753",
+            "prefixICAO": "EJU",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "NCE"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T13:35:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "13:35:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-15T01:10:55.212+01:00",
+            "aircraftType": {
+                "iataMain": "EMJ",
+                "iataSub": "E90"
+            },
+            "flightDirection": "D",
+            "flightName": "BA8460",
+            "flightNumber": 8460,
+            "id": "139895031975522823",
+            "isOperationalFlight": false,
+            "mainFlight": "BA8460",
+            "prefixIATA": "BA",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "LCY"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T13:35:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "13:35:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-02-19T20:46:34.301+01:00",
+            "aircraftType": {
+                "iataMain": "32S",
+                "iataSub": "32Q"
+            },
+            "flightDirection": "D",
+            "flightName": "B62289",
+            "flightNumber": 2289,
+            "id": "139895032094855981",
+            "isOperationalFlight": false,
+            "mainFlight": "B62289",
+            "prefixIATA": "B6",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "JFK"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T13:40:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "13:40:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-14T16:07:32.986+01:00",
+            "aircraftType": {
+                "iataMain": "32S",
+                "iataSub": "32N"
+            },
+            "flightDirection": "D",
+            "flightName": "EJU7807",
+            "flightNumber": 7807,
+            "id": "139895058817165881",
+            "isOperationalFlight": false,
+            "mainFlight": "EJU7807",
+            "prefixICAO": "EJU",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "BGY"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T13:40:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "13:40:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-15T01:10:48.027+01:00",
+            "aircraftType": {
+                "iataMain": "320",
+                "iataSub": "32S"
+            },
+            "flightDirection": "D",
+            "flightName": "BA2543",
+            "flightNumber": 2543,
+            "id": "139895031974917583",
+            "isOperationalFlight": false,
+            "mainFlight": "BA2543",
+            "prefixIATA": "BA",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "LGW"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T13:40:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "13:40:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-15T01:03:44.548+01:00",
+            "aircraftType": {
+                "iataMain": "73H",
+                "iataSub": "73H"
+            },
+            "flightDirection": "D",
+            "flightName": "OR1101",
+            "flightNumber": 1101,
+            "id": "139895033841469381",
+            "isOperationalFlight": false,
+            "mainFlight": "OR1101",
+            "prefixIATA": "OR",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "AOK"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T13:45:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "13:45:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-15T11:38:05.883+01:00",
+            "aircraftType": {
+                "iataMain": "74F",
+                "iataSub": "74N"
+            },
+            "flightDirection": "D",
+            "flightName": "CLX6823",
+            "flightNumber": 6823,
+            "id": "139895048842779873",
+            "isOperationalFlight": false,
+            "mainFlight": "CLX6823",
+            "prefixICAO": "CLX",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "LUX"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T13:50:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "13:50:00",
+            "serviceType": "F",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-02-01T08:00:36.319+01:00",
+            "aircraftType": {
+                "iataMain": "73H",
+                "iataSub": "73H"
+            },
+            "flightDirection": "D",
+            "flightName": "HV5079",
+            "flightNumber": 5079,
+            "id": "139895032886050291",
+            "isOperationalFlight": false,
+            "mainFlight": "HV5079",
+            "prefixIATA": "HV",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "RHO"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T13:55:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "13:55:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-14T16:06:30.839+01:00",
+            "aircraftType": {
+                "iataMain": "320",
+                "iataSub": "32S"
+            },
+            "flightDirection": "D",
+            "flightName": "EJU3854",
+            "flightNumber": 3854,
+            "id": "139895058816761021",
+            "isOperationalFlight": false,
+            "mainFlight": "EJU3854",
+            "prefixICAO": "EJU",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "MXP"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T13:55:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "13:55:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-14T16:10:06.503+01:00",
+            "aircraftType": {
+                "iataMain": "32S",
+                "iataSub": "32N"
+            },
+            "flightDirection": "D",
+            "flightName": "EZY2164",
+            "flightNumber": 2164,
+            "id": "139895061050640535",
+            "isOperationalFlight": false,
+            "mainFlight": "EZY2164",
+            "prefixICAO": "EZY",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "MAN"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T13:55:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "13:55:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-15T01:10:45.649+01:00",
+            "aircraftType": {
+                "iataMain": "32S",
+                "iataSub": "32N"
+            },
+            "flightDirection": "D",
+            "flightName": "TP669",
+            "flightNumber": 669,
+            "id": "139895031767445793",
+            "isOperationalFlight": false,
+            "mainFlight": "TP669",
+            "prefixIATA": "TP",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "LIS"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T13:55:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "13:55:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-01-13T07:30:09.651+01:00",
+            "aircraftType": {
+                "iataMain": "73H",
+                "iataSub": "73H"
+            },
+            "flightDirection": "D",
+            "flightName": "FR3007",
+            "flightNumber": 3007,
+            "id": "139895032593478041",
+            "isOperationalFlight": false,
+            "mainFlight": "FR3007",
+            "prefixIATA": "FR",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "DUB"
+                ],
+                "eu": "E",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T14:00:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "14:00:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-02-20T14:07:18.498+01:00",
+            "aircraftType": {
+                "iataMain": "73H",
+                "iataSub": "73H"
+            },
+            "flightDirection": "D",
+            "flightName": "HV6505",
+            "flightNumber": 6505,
+            "id": "139895032886164761",
+            "isOperationalFlight": false,
+            "mainFlight": "HV6505",
+            "prefixIATA": "HV",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "AMM"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T14:00:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "14:00:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-15T01:03:59.143+01:00",
+            "aircraftType": {
+                "iataMain": "787",
+                "iataSub": "788"
+            },
+            "flightDirection": "D",
+            "flightName": "OR355",
+            "flightNumber": 355,
+            "id": "139895031748898499",
+            "isOperationalFlight": false,
+            "mainFlight": "OR355",
+            "prefixIATA": "OR",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "CUR"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T14:05:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "14:05:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2023-11-13T14:02:54.959+01:00",
+            "aircraftType": {
+                "iataMain": "767",
+                "iataSub": "76W"
+            },
+            "flightDirection": "D",
+            "flightName": "FI501",
+            "flightNumber": 501,
+            "id": "139895031714256945",
+            "isOperationalFlight": false,
+            "mainFlight": "FI501",
+            "prefixIATA": "FI",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "KEF"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T14:10:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "14:10:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-02-27T21:16:31.405+01:00",
+            "aircraftType": {
+                "iataMain": "EMJ",
+                "iataSub": "E95"
+            },
+            "flightDirection": "D",
+            "flightName": "LO264",
+            "flightNumber": 264,
+            "id": "139895031737346949",
+            "isOperationalFlight": false,
+            "mainFlight": "LO264",
+            "prefixIATA": "LO",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "WAW"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T14:15:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "14:15:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-14T16:06:57.302+01:00",
+            "aircraftType": {
+                "iataMain": "319",
+                "iataSub": "319"
+            },
+            "flightDirection": "D",
+            "flightName": "EJU4082",
+            "flightNumber": 4082,
+            "id": "139895058816840641",
+            "isOperationalFlight": false,
+            "mainFlight": "EJU4082",
+            "prefixICAO": "EJU",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "VCE"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T14:15:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "14:15:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-02-01T08:03:04.269+01:00",
+            "aircraftType": {
+                "iataMain": "73H",
+                "iataSub": "73H"
+            },
+            "flightDirection": "D",
+            "flightName": "HV5665",
+            "flightNumber": 5665,
+            "id": "139895032886066637",
+            "isOperationalFlight": false,
+            "mainFlight": "HV5665",
+            "prefixIATA": "HV",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "LPA"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T14:30:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "14:30:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-02-01T08:01:29.043+01:00",
+            "aircraftType": {
+                "iataMain": "32S",
+                "iataSub": "32Q"
+            },
+            "flightDirection": "D",
+            "flightName": "HV5313",
+            "flightNumber": 5313,
+            "id": "139895032886058049",
+            "isOperationalFlight": false,
+            "mainFlight": "HV5313",
+            "prefixIATA": "HV",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "LCA"
+                ],
+                "eu": "E",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T14:40:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "14:40:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-15T01:03:46.704+01:00",
+            "aircraftType": {
+                "iataMain": "767",
+                "iataSub": "76W"
+            },
+            "flightDirection": "D",
+            "flightName": "OR1197",
+            "flightNumber": 1197,
+            "id": "139895033841470059",
+            "isOperationalFlight": false,
+            "mainFlight": "OR1197",
+            "prefixIATA": "OR",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "KGS",
+                    "RHO"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T14:40:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "14:40:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-15T01:03:49.965+01:00",
+            "aircraftType": {
+                "iataMain": "737",
+                "iataSub": "7M8"
+            },
+            "flightDirection": "D",
+            "flightName": "OR1633",
+            "flightNumber": 1633,
+            "id": "139895033841483297",
+            "isOperationalFlight": false,
+            "mainFlight": "OR1633",
+            "prefixIATA": "OR",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "LPA"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T14:40:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "14:40:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-02-01T08:08:03.620+01:00",
+            "aircraftType": {
+                "iataMain": "32S",
+                "iataSub": "32Q"
+            },
+            "flightDirection": "D",
+            "flightName": "HV6705",
+            "flightNumber": 6705,
+            "id": "139895032886170237",
+            "isOperationalFlight": false,
+            "mainFlight": "HV6705",
+            "prefixIATA": "HV",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "FUE"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T14:45:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "14:45:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-15T01:04:05.288+01:00",
+            "aircraftType": {
+                "iataMain": "330",
+                "iataSub": "333"
+            },
+            "flightDirection": "D",
+            "flightName": "TK1958",
+            "flightNumber": 1958,
+            "id": "139895034508692985",
+            "isOperationalFlight": false,
+            "mainFlight": "TK1958",
+            "prefixIATA": "TK",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "IST"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T14:45:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "14:45:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-15T01:12:05.849+01:00",
+            "aircraftType": {
+                "iataMain": "320",
+                "iataSub": "32S"
+            },
+            "flightDirection": "D",
+            "flightName": "SK548",
+            "flightNumber": 548,
+            "id": "139895031763188053",
+            "isOperationalFlight": false,
+            "mainFlight": "SK548",
+            "prefixIATA": "SK",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "CPH"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T14:50:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "14:50:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-15T01:04:06.238+01:00",
+            "aircraftType": {
+                "iataMain": "777",
+                "iataSub": "772"
+            },
+            "flightDirection": "D",
+            "flightName": "UA969",
+            "flightNumber": 969,
+            "id": "139895031769682739",
+            "isOperationalFlight": false,
+            "mainFlight": "UA969",
+            "prefixIATA": "UA",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "SFO"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T14:50:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "14:50:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-02-05T16:18:51.255+01:00",
+            "aircraftType": {
+                "iataMain": "74F",
+                "iataSub": "74N"
+            },
+            "flightDirection": "D",
+            "flightName": "CX2014",
+            "flightNumber": 2014,
+            "id": "139895032199802993",
+            "isOperationalFlight": false,
+            "mainFlight": "CX2014",
+            "prefixIATA": "CX",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "HKG"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T14:55:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "14:55:00",
+            "serviceType": "F",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-14T16:08:06.943+01:00",
+            "aircraftType": {
+                "iataMain": "319",
+                "iataSub": "319"
+            },
+            "flightDirection": "D",
+            "flightName": "EJU7843",
+            "flightNumber": 7843,
+            "id": "139895058817166169",
+            "isOperationalFlight": false,
+            "mainFlight": "EJU7843",
+            "prefixICAO": "EJU",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "BHX"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T14:55:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "14:55:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-15T01:10:39.599+01:00",
+            "aircraftType": {
+                "iataMain": "32S",
+                "iataSub": "32Q"
+            },
+            "flightDirection": "D",
+            "flightName": "TS377",
+            "flightNumber": 377,
+            "id": "139895031767741567",
+            "isOperationalFlight": false,
+            "mainFlight": "TS377",
+            "prefixIATA": "TS",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "YYZ"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T14:55:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "14:55:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-14T16:09:37.366+01:00",
+            "aircraftType": {
+                "iataMain": "32S",
+                "iataSub": "32N"
+            },
+            "flightDirection": "D",
+            "flightName": "EJU8677",
+            "flightNumber": 8677,
+            "id": "139895058817262229",
+            "isOperationalFlight": false,
+            "mainFlight": "EJU8677",
+            "prefixICAO": "EJU",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "LGW"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T15:00:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "15:00:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-15T01:11:08.758+01:00",
+            "aircraftType": {
+                "iataMain": "32S",
+                "iataSub": "32Q"
+            },
+            "flightDirection": "D",
+            "flightName": "BA435",
+            "flightNumber": 435,
+            "id": "139895031698450701",
+            "isOperationalFlight": false,
+            "mainFlight": "BA435",
+            "prefixIATA": "BA",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "LHR"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T15:00:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "15:00:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-02-20T14:07:13.140+01:00",
+            "aircraftType": {
+                "iataMain": "73H",
+                "iataSub": "73H"
+            },
+            "flightDirection": "D",
+            "flightName": "HV6423",
+            "flightNumber": 6423,
+            "id": "139895032886162167",
+            "isOperationalFlight": false,
+            "mainFlight": "HV6423",
+            "prefixIATA": "HV",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "PDL"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T15:15:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "15:15:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-02-01T08:08:12.916+01:00",
+            "aircraftType": {
+                "iataMain": "73H",
+                "iataSub": "73H"
+            },
+            "flightDirection": "D",
+            "flightName": "HV6727",
+            "flightNumber": 6727,
+            "id": "139895032886170389",
+            "isOperationalFlight": false,
+            "mainFlight": "HV6727",
+            "prefixIATA": "HV",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "SVQ"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T15:20:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "15:20:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-02-01T07:59:51.252+01:00",
+            "aircraftType": {
+                "iataMain": "73H",
+                "iataSub": "73H"
+            },
+            "flightDirection": "D",
+            "flightName": "HV821",
+            "flightNumber": 821,
+            "id": "139895031723078929",
+            "isOperationalFlight": false,
+            "mainFlight": "HV821",
+            "prefixIATA": "HV",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "AYT"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T15:20:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "15:20:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-02-19T17:08:16.742+01:00",
+            "aircraftType": {
+                "iataMain": "380",
+                "iataSub": "388"
+            },
+            "flightDirection": "D",
+            "flightName": "EK148",
+            "flightNumber": 148,
+            "id": "139895031710700593",
+            "isOperationalFlight": false,
+            "mainFlight": "EK148",
+            "prefixIATA": "EK",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "DXB"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T15:20:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "15:20:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-14T16:11:00.548+01:00",
+            "aircraftType": {
+                "iataMain": "319",
+                "iataSub": "319"
+            },
+            "flightDirection": "D",
+            "flightName": "EZY2518",
+            "flightNumber": 2518,
+            "id": "139895061050651125",
+            "isOperationalFlight": false,
+            "mainFlight": "EZY2518",
+            "prefixICAO": "EZY",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "LTN"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T15:25:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "15:25:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-15T01:03:42.881+01:00",
+            "aircraftType": {
+                "iataMain": "32S",
+                "iataSub": "32Q"
+            },
+            "flightDirection": "D",
+            "flightName": "MS758",
+            "flightNumber": 758,
+            "id": "139895031741514119",
+            "isOperationalFlight": false,
+            "mainFlight": "MS758",
+            "prefixIATA": "MS",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "CAI"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T15:40:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "15:40:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-14T16:12:06.848+01:00",
+            "aircraftType": {
+                "iataMain": "319",
+                "iataSub": "319"
+            },
+            "flightDirection": "D",
+            "flightName": "EZY8679",
+            "flightNumber": 8679,
+            "id": "139895061051262145",
+            "isOperationalFlight": false,
+            "mainFlight": "EZY8679",
+            "prefixICAO": "EZY",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "LGW"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T15:45:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "15:45:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-02-01T07:59:40.587+01:00",
+            "aircraftType": {
+                "iataMain": "73H",
+                "iataSub": "73H"
+            },
+            "flightDirection": "D",
+            "flightName": "HV403",
+            "flightNumber": 403,
+            "id": "139895031723067833",
+            "isOperationalFlight": false,
+            "mainFlight": "HV403",
+            "prefixIATA": "HV",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "DLM"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T15:55:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "15:55:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-06T14:26:37.121+01:00",
+            "aircraftType": {
+                "iataMain": "787",
+                "iataSub": "789"
+            },
+            "flightDirection": "D",
+            "flightName": "SV216",
+            "flightNumber": 216,
+            "id": "139895031764293979",
+            "isOperationalFlight": false,
+            "mainFlight": "SV216",
+            "prefixIATA": "SV",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "JED"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T15:55:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "15:55:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-13T21:41:21.212+01:00",
+            "aircraftType": {
+                "iataMain": "74F",
+                "iataSub": "74Y"
+            },
+            "flightDirection": "D",
+            "flightName": "SV934",
+            "flightNumber": 934,
+            "id": "139895031764313289",
+            "isOperationalFlight": false,
+            "mainFlight": "SV934",
+            "prefixIATA": "SV",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "RUH"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T16:05:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "16:05:00",
+            "serviceType": "F",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-02-01T08:05:46.327+01:00",
+            "aircraftType": {
+                "iataMain": "32S",
+                "iataSub": "32Q"
+            },
+            "flightDirection": "D",
+            "flightName": "HV6119",
+            "flightNumber": 6119,
+            "id": "139895032886153891",
+            "isOperationalFlight": false,
+            "mainFlight": "HV6119",
+            "prefixIATA": "HV",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "AGP"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T16:15:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "16:15:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-02-16T14:36:02.561+01:00",
+            "aircraftType": {
+                "iataMain": "74F",
+                "iataSub": "74N"
+            },
+            "flightDirection": "D",
+            "flightName": "5Y8185",
+            "flightNumber": 8185,
+            "id": "139895036226111915",
+            "isOperationalFlight": false,
+            "mainFlight": "5Y8185",
+            "prefixIATA": "5Y",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "ICN"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T16:15:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "16:15:00",
+            "serviceType": "F",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-12T12:15:53.179+01:00",
+            "aircraftType": {
+                "iataMain": "737",
+                "iataSub": "7M9"
+            },
+            "flightDirection": "D",
+            "flightName": "CD465",
+            "flightNumber": 465,
+            "id": "139895031702503163",
+            "isOperationalFlight": false,
+            "mainFlight": "CD465",
+            "prefixIATA": "CD",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "PMI"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T16:15:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "16:15:00",
+            "serviceType": "C",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-15T01:11:10.224+01:00",
+            "aircraftType": {
+                "iataMain": "320",
+                "iataSub": "32S"
+            },
+            "flightDirection": "D",
+            "flightName": "BA439",
+            "flightNumber": 439,
+            "id": "139895031698450709",
+            "isOperationalFlight": false,
+            "mainFlight": "BA439",
+            "prefixIATA": "BA",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "LHR"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T16:15:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "16:15:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-15T01:04:04.524+01:00",
+            "aircraftType": {
+                "iataMain": "777",
+                "iataSub": "77W"
+            },
+            "flightDirection": "D",
+            "flightName": "QR274",
+            "flightNumber": 274,
+            "id": "139895031756392551",
+            "isOperationalFlight": false,
+            "mainFlight": "QR274",
+            "prefixIATA": "QR",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "DOH"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T16:15:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "16:15:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-14T16:06:50.811+01:00",
+            "aircraftType": {
+                "iataMain": "319",
+                "iataSub": "319"
+            },
+            "flightDirection": "D",
+            "flightName": "EJU3860",
+            "flightNumber": 3860,
+            "id": "139895058816761087",
+            "isOperationalFlight": false,
+            "mainFlight": "EJU3860",
+            "prefixICAO": "EJU",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "MXP"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T16:20:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "16:20:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-14T16:09:54.241+01:00",
+            "aircraftType": {
+                "iataMain": "320",
+                "iataSub": "32S"
+            },
+            "flightDirection": "D",
+            "flightName": "EZS1518",
+            "flightNumber": 1518,
+            "id": "139895061028059887",
+            "isOperationalFlight": false,
+            "mainFlight": "EZS1518",
+            "prefixICAO": "EZS",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "GVA"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T16:20:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "16:20:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-14T16:10:27.384+01:00",
+            "aircraftType": {
+                "iataMain": "320",
+                "iataSub": "32S"
+            },
+            "flightDirection": "D",
+            "flightName": "EZY2180",
+            "flightNumber": 2180,
+            "id": "139895061050640675",
+            "isOperationalFlight": false,
+            "mainFlight": "EZY2180",
+            "prefixICAO": "EZY",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "MAN"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T16:20:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "16:20:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-15T01:10:56.331+01:00",
+            "aircraftType": {
+                "iataMain": "EMJ",
+                "iataSub": "E90"
+            },
+            "flightDirection": "D",
+            "flightName": "BA8454",
+            "flightNumber": 8454,
+            "id": "139895031975522757",
+            "isOperationalFlight": false,
+            "mainFlight": "BA8454",
+            "prefixIATA": "BA",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "LCY"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T16:20:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "16:20:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-02-01T08:04:07.962+01:00",
+            "aircraftType": {
+                "iataMain": "73H",
+                "iataSub": "73H"
+            },
+            "flightDirection": "D",
+            "flightName": "HV5791",
+            "flightNumber": 5791,
+            "id": "139895032886069589",
+            "isOperationalFlight": false,
+            "mainFlight": "HV5791",
+            "prefixIATA": "HV",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "PVK"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T16:30:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "16:30:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-02-01T08:04:50.268+01:00",
+            "aircraftType": {
+                "iataMain": "73H",
+                "iataSub": "73H"
+            },
+            "flightDirection": "D",
+            "flightName": "HV5951",
+            "flightNumber": 5951,
+            "id": "139895032886074769",
+            "isOperationalFlight": false,
+            "mainFlight": "HV5951",
+            "prefixIATA": "HV",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "LIS"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T16:35:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "16:35:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-11T10:44:25.077+01:00",
+            "aircraftType": {
+                "iataMain": "32S",
+                "iataSub": "32Q"
+            },
+            "flightDirection": "D",
+            "flightName": "PC1254",
+            "flightNumber": 1254,
+            "id": "139895033923935579",
+            "isOperationalFlight": false,
+            "mainFlight": "PC1254",
+            "prefixIATA": "PC",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "SAW"
+                ],
+                "eu": "N",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T16:35:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "16:35:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-14T16:08:44.282+01:00",
+            "aircraftType": {
+                "iataMain": "32S",
+                "iataSub": "32N"
+            },
+            "flightDirection": "D",
+            "flightName": "EJU7891",
+            "flightNumber": 7891,
+            "id": "139895058817166535",
+            "isOperationalFlight": false,
+            "mainFlight": "EJU7891",
+            "prefixICAO": "EJU",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "IBZ"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T16:40:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "16:40:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-14T16:07:00.520+01:00",
+            "aircraftType": {
+                "iataMain": "32S",
+                "iataSub": "32N"
+            },
+            "flightDirection": "D",
+            "flightName": "EJU4232",
+            "flightNumber": 4232,
+            "id": "139895058816845747",
+            "isOperationalFlight": false,
+            "mainFlight": "EJU4232",
+            "prefixICAO": "EJU",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "NAP"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T16:40:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "16:40:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-02-01T08:04:28.898+01:00",
+            "aircraftType": {
+                "iataMain": "73H",
+                "iataSub": "73H"
+            },
+            "flightDirection": "D",
+            "flightName": "HV5805",
+            "flightNumber": 5805,
+            "id": "139895032886071669",
+            "isOperationalFlight": false,
+            "mainFlight": "HV5805",
+            "prefixIATA": "HV",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "SKG"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T16:50:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "16:50:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2023-11-13T14:02:55.959+01:00",
+            "aircraftType": {
+                "iataMain": "737",
+                "iataSub": "7M8"
+            },
+            "flightDirection": "D",
+            "flightName": "FI507",
+            "flightNumber": 507,
+            "id": "139895031714256957",
+            "isOperationalFlight": false,
+            "mainFlight": "FI507",
+            "prefixIATA": "FI",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "KEF"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T16:50:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "16:50:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-14T16:07:29.003+01:00",
+            "aircraftType": {
+                "iataMain": "319",
+                "iataSub": "319"
+            },
+            "flightDirection": "D",
+            "flightName": "EJU7805",
+            "flightNumber": 7805,
+            "id": "139895058817165877",
+            "isOperationalFlight": false,
+            "mainFlight": "EJU7805",
+            "prefixICAO": "EJU",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "LIN"
+                ],
+                "eu": "S",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T17:00:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "17:00:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        },
+        {
+            "lastUpdatedAt": "2024-03-15T01:11:00.613+01:00",
+            "aircraftType": {
+                "iataMain": "320",
+                "iataSub": "32S"
+            },
+            "flightDirection": "D",
+            "flightName": "EI609",
+            "flightNumber": 609,
+            "id": "139895031710511377",
+            "isOperationalFlight": false,
+            "mainFlight": "EI609",
+            "prefixIATA": "EI",
+            "publicFlightState": {
+                "flightStates": [
+                    "SCH"
+                ]
+            },
+            "route": {
+                "destinations": [
+                    "DUB"
+                ],
+                "eu": "E",
+                "visa": false
+            },
+            "scheduleDateTime": "2024-05-30T17:00:00.000+02:00",
+            "scheduleDate": "2024-05-30",
+            "scheduleTime": "17:00:00",
+            "serviceType": "J",
+            "schemaVersion": "4"
+        }
+    ]
+}
