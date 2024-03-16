@@ -20,16 +20,17 @@ def create_map():
     # add a marker for each airport
     for index, row in airports.iterrows():
         html = f"<h2>{row['dutch']}</h2><br><p>Gemiddelde temperatuur van mei en juni over afgelopen 14 jaar: {round(row['avg_temp'],2)}°C</p>"
-        icon = CustomIcon("images/icon.png", icon_size=(35, 35), icon_anchor=(1, 25))
+        icon = CustomIcon("images/icon.png", icon_size=(35, 35))
         Marker(
             location=[row["latitude"], row["longitude"]], icon=icon, popup=html
         ).add_to(map)
     logger.info("Airports added to map")
 
     # add a marker for Amsterdam Schiphol Airport
+    html = "<h2>Amsterdam Schiphol Airport</h2><br><p>Gemiddelde temperatuur van mei en juni over afgelopen 14 jaar: 13.6°C</p>"
     Marker(
         location=[52.3080392, 4.7621975],
-        popup="Amsterdam Schiphol Airport",
+        popup=html,
         icon=Icon(color="pink", icon="home"),
     ).add_to(map)
 
