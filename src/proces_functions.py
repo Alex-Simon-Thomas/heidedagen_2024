@@ -5,6 +5,7 @@ from geopy.geocoders import Nominatim
 from geopy.exc import GeocoderTimedOut
 from math import sin, cos, sqrt, atan2, radians
 from settings import *
+from meteostat import Point, Monthly
 
 settings = Settings()
 
@@ -55,3 +56,13 @@ def calculate_distance(row, schiphol_lat, schiphol_lon):
     c = 2 * atan2(sqrt(a), sqrt(1 - a))
     distance = R * c
     return distance
+
+
+def get_avg_temp(row):
+    tpr = Point(row["latitude"], row["longitude"])
+    pd_data = (Monthly(tpr, settings.temp_start_date, settings.temp_end_date)).fetch()[
+        "tavg"
+    ]
+    may_june = pd_data[(pd_data.index.month == 5) | (pd_data.index.month == 6)]
+    avg_may_june = may_june.mean()
+    return avg_may_june

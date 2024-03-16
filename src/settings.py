@@ -15,6 +15,9 @@ class Settings(BaseModel):
     schiphol_lat: int = 52.3080392
     schiphol_lon: int = 4.7621975
 
+    temp_start_date: str = "2010-01-01"
+    temp_end_date: str = "2020-12-01"
+
 
 settings = Settings()
 logger.add(settings.logfile, level=settings.loglevel)
