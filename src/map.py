@@ -1,5 +1,5 @@
 # Importing the required modules
-from folium import Map, Marker, Popup, Circle, Icon
+from folium import Map, Marker, Popup, Circle, Icon, CustomIcon
 import pandas as pd
 from settings import Settings, logger
 
@@ -19,9 +19,11 @@ def create_map():
 
     # add a marker for each airport
     for index, row in airports.iterrows():
-        Marker(location=[row["latitude"], row["longitude"]], popup=row["dutch"]).add_to(
-            map
-        )
+        html = f"<h2>{row['dutch']}</h2><br><p>Gemiddelde temperatuur van mei en juni over afgelopen 14 jaar: {round(row['avg_temp'],2)}°C</p>"
+        icon = CustomIcon("images/icon.png", icon_size=(35, 35), icon_anchor=(1, 25))
+        Marker(
+            location=[row["latitude"], row["longitude"]], icon=icon, popup=html
+        ).add_to(map)
     logger.info("Airports added to map")
 
     # add a marker for Amsterdam Schiphol Airport

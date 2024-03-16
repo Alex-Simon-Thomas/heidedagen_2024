@@ -15,8 +15,8 @@ class Settings(BaseModel):
     schiphol_lat: int = 52.3080392
     schiphol_lon: int = 4.7621975
 
-    temp_start_date: str = "2010-01-01"
-    temp_end_date: str = "2020-12-01"
+    temp_start_date: datetime = datetime(2010, 1, 1)
+    temp_end_date: datetime = datetime(2024, 12, 1)
 
 
 settings = Settings()
