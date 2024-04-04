@@ -18,7 +18,7 @@ def create_map():
     # based on the hint from update 4-4-2024 only spanish destinations are shown
     airports = airports[airports["country"] == "Spain"]
 
-    map = Map(location=[45, 4.7], zoom_start=6)
+    map = Map(location=[45, 4.7], zoom_start=5)
 
     # add a marker for each airport
     for index, row in airports.iterrows():
