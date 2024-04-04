@@ -15,7 +15,10 @@ def create_map():
     # Dropping duplicates based on the "city" column
     airports = airports.drop_duplicates(subset="city")
 
-    map = Map(location=[47.0, 4.7], zoom_start=5)
+    # based on the hint from update 4-4-2024 only spanish destinations are shown
+    airports = airports[airports["country"] == "Spain"]
+
+    map = Map(location=[45, 4.7], zoom_start=6)
 
     # add a marker for each airport
     for index, row in airports.iterrows():
