@@ -92,7 +92,15 @@ def preprocess_data():
     logger.info("Creating CSV files")
 
     df_airports = df_final[
-        ["destinations", "city", "dutch", "latitude", "longitude", "avg_temp"]
+        [
+            "country",
+            "destinations",
+            "city",
+            "dutch",
+            "latitude",
+            "longitude",
+            "avg_temp",
+        ]
     ].drop_duplicates(subset=["destinations"])
 
     df_final.to_csv(f"{settings.outputdir}/final_output.csv", index=False)
